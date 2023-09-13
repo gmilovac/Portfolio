@@ -1,7 +1,7 @@
 ---
 type: posts
-title: Skills
+title: Projects
 date: 2021-03-18
 ---
 
-# Skills
+# Projects
