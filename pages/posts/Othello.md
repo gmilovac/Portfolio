@@ -1,8 +1,8 @@
 ---
 title: Othello
 date: 2021/12/18
-description: “Othello” board game with complex game logic and 3 AI opponent difficulties.
-tag: Game Development
+description: Othello board game with complex logic and 3 AI opponent difficulties.
+tag: Java
 author: Gordan Milovac
 ---
 

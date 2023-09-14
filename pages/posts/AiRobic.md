@@ -2,7 +2,7 @@
 title: AiRobic
 date: 2023/5/20
 description: Website which generates a user-specific plan of rowing workouts.
-tag: Web Development
+tag: Java, JavaScript, Rect.js, HTML, CSS
 author: Gordan Milovac
 ---
 
