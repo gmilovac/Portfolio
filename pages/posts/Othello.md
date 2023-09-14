@@ -1,14 +1,12 @@
 ---
 title: Othello
-date: 2021/12/20
+date: 2021/12/18
 description: “Othello” board game with complex game logic and 3 AI opponent difficulties.
 tag: Game Development
 author: Gordan Milovac
 ---
 
 # Othello
-
----
 
 ![Start](/images/othellostart.png)
 
@@ -44,4 +42,6 @@ The project utilizes an interface named "Player" to allow the same methods to be
 
 There are small issues with Computer level 2 and 3. They are showcasing inconsistent behaviour.
 
-![Video](/images/othellovid.mov)
+----
+
+![Video](/images/othellovid.gif)
