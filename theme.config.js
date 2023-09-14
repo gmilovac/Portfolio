@@ -4,7 +4,8 @@ export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Gordan Milovac.
-      <a href="/feed.xml">RSS</a>
+        <a target="_blank" href="https://www.linkedin.com/in/gmilovac/"><img src="public/images/linkedin.png"/></a>
+        <a href="/feed.xml">RSS</a>
       <style jsx>{`
         a {
           float: right;
