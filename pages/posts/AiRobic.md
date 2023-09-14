@@ -1,29 +1,44 @@
 ---
 title: AiRobic
 date: 2023/5/20
-description: Website which generates a user-specific plan of rowing workouts
+description: Website which generates a user-specific plan of rowing workouts.
 tag: Web Development
 author: Gordan Milovac
 ---
 
 # AiRobic
 
-![Boat](/images/boys.jpeg)
+![Main Page](/images/boys.jpeg)
+
+---
 
 ### Project details
 
-This project is a web application that allows for users to receive a computer generated workout plan tailored to suit their fitness goals. The user can create and account and upon signing in will have all their data stored such that they can continously check and update the information In its current state the application will give indoor rowing workouts only but can be expanded to other sports in the future. <br />
+This project is a web application that allows for users to receive a computer generated workout plan tailored to suit their fitness goals. The user can create and account and upon signing in will have all their data stored such that they can continously check and update the information In its current state the application will give indoor rowing workouts only but can be expanded to other sports in the future.
 
-The front end of the application is built with React and uses several libraries to make a sleek user interface and allows the user to authenticate themselves with Google. Once logged in the user can create a new workout schedule based on the hours per week they wish to train, their mode of training - goal, variable and linear - and the start and end date of their training schedule. Once a schedule has been created it will be saved and they can view it on a calendar at any point in the future once logged in.<br />
+The front end of the application is built with React and uses several libraries to make a sleek user interface and allows the user to authenticate themselves with Google. Once logged in the user can create a new workout schedule based on the hours per week they wish to train, their mode of training - goal, variable and linear - and the start and end date of their training schedule. Once a schedule has been created it will be saved and they can view it on a calendar at any point in the future once logged in.
 
-The back end of the application handles api requests from the front end which in turn stores a users data for future access using Firebase. It also is responsible for generating the workout plan using a hidden markov modelbased which creates a personalized schedule based on the users desired specifications.<br />
+The back end of the application handles api requests from the front end which in turn stores a users data for future access using Firebase. It also is responsible for generating the workout plan using a hidden markov modelbased which creates a personalized schedule based on the users desired specifications.
 
-**Github repo:**<br />
+**Github repo:**
+
 [https://github.com/gmilovac/AiRobic]
+
+---
+
+![Specific Selection](/images/boys.jpeg)
+
+---
 
 ### Project Description
 
 The project aims to simplify the taks of creating a workout schedule for users by creating a computer generated personalized training plan. With intention to be expandable to more sports in the future, the project is indoor rowing specific and draws from the collective 20+ years of rowing experience from the team members to ensure end users are given high quality and effective training plans. The end users will be able to create new training programs tailored to their inputted specifications and will be able to view their workouts on a calendar for any given day. Their information will be stored such that they can access their workout plan at any time and also can create a new plan if their fitness goals change.
+
+---
+
+![Calendar](/images/boys.jpeg)
+
+---
 
 ### Design Choices
 
@@ -58,7 +73,13 @@ We used Google Oauth for authorization as it allowed for secure account creation
 Once authenticated using google's api the user's unique id is returned and their data is stored via firebase under this unique id.
 Registration required the user to not have an account already in our database and once created, the user can sign in at any time to access their workout information.
 
-### Team members and contributions:
+---
+
+![Specific Workout](/images/boys.jpeg)
+
+---
+
+### Team members and contributions
 
 **Colin Baker** (*cbaker20*): Back end - Workout generation and markov models
 
@@ -81,6 +102,12 @@ Authentication methods were extensively tested to ensure no unexpected responses
 Database unit tests ensured that database methods worked as expected and how the database responds to the calls.
 API handlers were tested to ensure integration between front end api calls and database commands was error free, with each api method tested plus edgecases ensured no unexpected responses were given.
 All models tested to ensure functionality and give correct response and random generation tests which tests efficiency of models. Also format tests to test specific formatting (date formatting, string formatting, etc) that we used throughout our code.
+
+---
+
+![Post Workout](/images/boys.jpeg)
+
+---
 
 ### How to
 
