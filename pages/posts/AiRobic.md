@@ -8,7 +8,7 @@ author: Gordan Milovac
 
 # AiRobic
 
-![Main Page](/images/boys.jpeg)
+![Main Page](/images/cool.png)
 
 ---
 
@@ -26,7 +26,7 @@ The back end of the application handles api requests from the front end which in
 
 ---
 
-![Specific Selection](/images/boys.jpeg)
+![Specific Selection](/images/whatwork.png)
 
 ---
 
@@ -36,7 +36,7 @@ The project aims to simplify the taks of creating a workout schedule for users b
 
 ---
 
-![Calendar](/images/boys.jpeg)
+![Calendar](/images/plan.png)
 
 ---
 
@@ -75,7 +75,7 @@ Registration required the user to not have an account already in our database an
 
 ---
 
-![Specific Workout](/images/boys.jpeg)
+![Specific Workout](/images/postsesh.png)
 
 ---
 
@@ -105,7 +105,7 @@ All models tested to ensure functionality and give correct response and random g
 
 ---
 
-![Post Workout](/images/boys.jpeg)
+![Post Workout](/images/alr.png)
 
 ---
 
