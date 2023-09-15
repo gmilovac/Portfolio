@@ -16,8 +16,6 @@ During my Summer 2023 internship I got an opportunity to assist the dobartek.hr 
 
 ---
 
-### Project Details
-
 By scanning the barcode of a food product, you can access all information about its ingredients and nutrients. Quickly and easily check if the product is safe for you. 
 
 App has the ability to detect over 200 allergens and intolerances among product ingredients.
@@ -28,9 +26,7 @@ Avoiding certain foods that can have serious consequences for the fetus or newbo
 
 Animal-origin ingredients are often hard to recognize, but not anymore thanks to the ScanEat app.
 
-**Website link:**
-
-https://scaneat.app
+**Website link:** https://scaneat.app
 
 ---
 
