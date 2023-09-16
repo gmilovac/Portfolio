@@ -10,6 +10,8 @@ author: Gordan Milovac
 
 This project is a final project for the EDIT CodeSchool in Fall of 2018 at 3rd Gymnasium Split. I was mostly working on the mini-game portion of the website and assisted with the content.
 
+---
+
 ![Main Page](/images/modernmain.png)
 
 --- 
@@ -54,4 +56,4 @@ The team was considering working more on the website. Some considered implementa
 
 ![Edit2](/images/edit2.jpeg)
 
-This project won the "Best web design" national reward. Our team (Gordan Milovac (me), Antionio Nikolic and Nino Borovic) was the first one to receive this prize. It was a great experience and I would recommend everyone to try it out. 
+This project won the "Best web design" national reward. Our team (Gordan Milovac - myself, Antionio Nikolic and Nino Borovic) was the first one to receive this prize. It was a great experience and I would recommend everyone to try it out. 

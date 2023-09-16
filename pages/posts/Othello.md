@@ -10,6 +10,8 @@ author: Gordan Milovac
 
 This project is a final project for CS0150: Introduction to Object-Oriented Programming and Computer Science in Fall of 2021 at Brown University. I have built the game in Java. 
 
+---
+
 ![Start](/images/othellostart.png)
 
 ---

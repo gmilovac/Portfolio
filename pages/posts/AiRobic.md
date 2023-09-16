@@ -10,6 +10,8 @@ author: Gordan Milovac
 
 This project is a final project for CS0320: Software Engineering  in Spring of 2023 at Brown University. I was mostly working on the Java backend portion, data management and the workout generation algorithm.
 
+---
+
 ![Main Page](/images/cool.png)
 
 ---
