@@ -1,7 +1,7 @@
 ---
 type: posts
 title: Projects
-date: 2021-03-18
+date: 2023-12-13
 ---
 
 # Projects
@@ -13,4 +13,3 @@ This page is listing some of my most recent projects and achievements. It featur
 ![Rowing](/images/suk.jpeg)
 
 ---
-
