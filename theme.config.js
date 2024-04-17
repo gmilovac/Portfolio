@@ -4,7 +4,9 @@ export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Gordan Milovac.
-      <a href="https://drive.google.com/file/d/1YS10h0S-qkj-N8hGhMC-2BW8MikKpMf8/view?usp=sharing">Resume PDF</a>
+      <a href="https://drive.google.com/file/d/1pLO4wx53B8gF3m8yB6usyexss8ll1mhK/view?usp=sharing">
+        Resume PDF
+      </a>
       <style jsx>{`
         a {
           float: right;
