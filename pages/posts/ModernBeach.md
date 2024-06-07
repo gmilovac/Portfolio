@@ -1,7 +1,7 @@
 ---
 title: Modern Beach
 date: 2018/12/20
-description: Website showing some of the most popular beaches in Croatia. Won the “Best web design” national award.
+description: [WEBSITE] Most popular beaches in Croatia. “Best web design” national award.
 tag: JavaScript, HTML, CSS
 author: Gordan Milovac
 ---
@@ -14,7 +14,7 @@ This project is a final project for the EDIT CodeSchool in Fall of 2018 at 3rd G
 
 ![Main Page](/images/modernmain.png)
 
---- 
+---
 
 This project is a website that allows for users to check some of the most popular beaches in Croatia and find out more about them. The user can hover their pointer over one of the beach images and check the detail such as: size, water temperature, surface type, shops, bars... Most shown beaches are located in the Dalmatian area, and there are over 10 being listed.
 
@@ -56,4 +56,4 @@ The team was considering working more on the website. Some considered implementa
 
 ![Edit2](/images/edit2.jpeg)
 
-This project won the "Best web design" national reward. Our team (Gordan Milovac - myself, Antionio Nikolic and Nino Borovic) was the first one to receive this prize. It was a great experience and I would recommend everyone to try it out. 
+This project won the "Best web design" national reward. Our team (Gordan Milovac - myself, Antionio Nikolic and Nino Borovic) was the first one to receive this prize. It was a great experience and I would recommend everyone to try it out.

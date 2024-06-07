@@ -1,14 +1,14 @@
 ---
 title: AiRobic
 date: 2023/5/20
-description: Website which generates a user-specific plan of rowing workouts.
+description: [WEBSITE] Generate a tailored plan of rowing workouts.
 tag: Java, JavaScript, Rect.js, HTML, CSS
 author: Gordan Milovac
 ---
 
 # AiRobic
 
-This project is a final project for CS0320: Software Engineering  in Spring of 2023 at Brown University. I was mostly working on the Java backend portion, data management and the workout generation algorithm.
+This project is a final project for CS0320: Software Engineering in Spring of 2023 at Brown University. I was mostly working on the Java backend portion, data management and the workout generation algorithm.
 
 ---
 
@@ -85,13 +85,13 @@ Registration required the user to not have an account already in our database an
 
 ### Team members and contributions
 
-**Colin Baker** (*cbaker20*): Back end - Workout generation and markov models
+**Colin Baker** (_cbaker20_): Back end - Workout generation and markov models
 
-**Marcus Winter** (*mwinter20*): Front end - Authentication and account management
+**Marcus Winter** (_mwinter20_): Front end - Authentication and account management
 
-**Gordan Milovac** (*gmilovac*): Back end - API call handlers and database management
+**Gordan Milovac** (_gmilovac_): Back end - API call handlers and database management
 
-**Adam von Bismarck** (*avonbism*): Front end - Website styling and workout display
+**Adam von Bismarck** (_avonbism_): Front end - Website styling and workout display
 
 **Time allocated:** 100+ hours
 
@@ -117,7 +117,7 @@ All models tested to ensure functionality and give correct response and random g
 
 **Build and run your program:**
 
-- Run Server.java found in /back/src/main/java/edu/brown/cs/student/main/server to start the back end  and then open the front
+- Run Server.java found in /back/src/main/java/edu/brown/cs/student/main/server to start the back end and then open the front
 
 - Using VSCode or your IDE of choice and execute the command "npm install" followed by "npm run dev"
 
@@ -130,6 +130,3 @@ You can now use our web app! Click on register button on the left side to get st
 The front end testing classes are found in the directory front/src/testing
 
 The back end testing classes are found in the directory back/src/test/java/edu/brown/cs/student
-
-
-
