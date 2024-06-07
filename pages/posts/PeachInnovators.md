@@ -90,7 +90,7 @@ Our results show that of all of our analyzed key variables, Average Watts is the
 
 **Gordan Milovac** (_gmilovac_): Data gathering and modeling, final deliverable
 
-**Time allocated:** 40+ hours
+**Time allocated:** 50+ hours
 
 ### Challenges and Limitations
 

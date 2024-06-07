@@ -1,7 +1,7 @@
 ---
 title: InterSystems
 date: 2024/8/16
-description: Project coming soon!
+description: (INTERNSHIP) Project coming soon!
 tag: Python, SQL, ObjectScript, IRIS, HTML, CSS, JavaScript
 author: Gordan Milovac
 ---
