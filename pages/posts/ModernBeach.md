@@ -1,7 +1,7 @@
 ---
 title: Modern Beach
 date: 2018/12/20
-description: [WEBSITE] Most popular beaches in Croatia. “Best web design” national award.
+description: (WEBSITE) Most popular beaches in Croatia. “Best web design” national award.
 tag: JavaScript, HTML, CSS
 author: Gordan Milovac
 ---

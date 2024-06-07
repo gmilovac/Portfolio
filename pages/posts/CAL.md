@@ -1,7 +1,7 @@
 ---
 title: CAL
 date: 2023/12/13
-description: Custom 3D Terrain Generator in OpenGL.
+description: (APP) Custom 3D Terrain Generator in OpenGL.
 tag: C++, OpenGL
 author: Gordan Milovac
 ---

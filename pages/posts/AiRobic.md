@@ -1,7 +1,7 @@
 ---
 title: AiRobic
 date: 2023/5/20
-description: [WEBSITE] Generate a tailored plan of rowing workouts.
+description: (WEBSITE) Generate a tailored plan of rowing workouts.
 tag: Java, JavaScript, Rect.js, HTML, CSS
 author: Gordan Milovac
 ---

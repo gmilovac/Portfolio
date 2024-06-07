@@ -1,7 +1,7 @@
 ---
 title: Peach Innovators
 date: 2024/5/16
-description: [RESEARCH] What makes the rowing boat move?
+description: (RESEARCH) What makes the rowing boat move?
 tag: Python, SQL
 author: Gordan Milovac
 ---

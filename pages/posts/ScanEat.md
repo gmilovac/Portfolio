@@ -1,7 +1,7 @@
 ---
 title: ScanEat
 date: 2023/8/25
-description: [APP] Shopping assistant in a form of a barcode scanner.
+description: (APP) Shopping assistant in a form of a barcode scanner.
 tag: Swift
 author: Gordan Milovac
 ---

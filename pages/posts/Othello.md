@@ -1,7 +1,7 @@
 ---
 title: Othello
 date: 2021/12/18
-description: [APP] Othello board game with 3 AI opponent difficulties.
+description: (APP) Othello board game with 3 AI opponent difficulties.
 tag: Java
 author: Gordan Milovac
 ---
