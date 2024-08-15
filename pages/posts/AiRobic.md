@@ -26,7 +26,7 @@ The back end of the application handles api requests from the front end which in
 
 **Github repo:**
 
-[https://github.com/gmilovac/AiRobic]
+https://github.com/gmilovac/AiRobic
 
 ---
 

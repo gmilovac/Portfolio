@@ -1,7 +1,7 @@
 ---
 title: AI-SDA Generator
 date: 2024/8/16
-description: (WEBSITE) Synthetic Patient Data Generator
+description: (WEBSITE) InterSystems Synthetic Patient Data Generator
 tag: JavaScript, React.js, HTML, CSS, InterSystems ObjectScript & IRIS
 author: Gordan Milovac
 ---
@@ -12,7 +12,7 @@ This project is a final project for InterSystems Sales Engineering Summer 2024 I
 
 ---
 
-![Main Page](/images/cool.png)
+![Main Page](/images/BassPatient.png)
 
 ---
 
@@ -24,15 +24,19 @@ The AI-SDA Generator project significantly reduces the time needed to create and
 
 **Github repo:**
 
-[https://github.com/Wzelong/AI-SDA]
+https://github.com/Wzelong/AI-SDA
+
+**Project Presenatation:**
+
+[link not out yet]
 
 **All About That Bass (ad):**
 
-[https://youtu.be/owz7UZDT2ms]
+https://youtu.be/owz7UZDT2ms
 
 ---
 
-![Specific Selection](/images/whatwork.png)
+![Create](/images/BassCreate.png)
 
 ---
 
@@ -42,7 +46,7 @@ This project is a final project for the Sales Engineering Summer 2024 Internship
 
 ---
 
-![Calendar](/images/plan.png)
+![Timeline](/images/BassTimeline.png)
 
 ---
 
@@ -89,7 +93,7 @@ We decided to generate patient data using predefined medical cases and appending
 
 ---
 
-![Specific Workout](/images/postsesh.png)
+![Inspect](/images/BassProblems.png)
 
 ---
 
@@ -139,17 +143,15 @@ You can now use a different AI model!
 
 ---
 
-![Post Workout](/images/alr.png)
+![Population](/images/BassPopulation.png)
 
 ---
 
 ### Tutorial and Functionality
 
-**YouTube Tutorial:**
+**YouTube Tutorial:** https://youtu.be/LDagH8bnXjE
 
-[https://youtu.be/LDagH8bnXjE]
-
-**1. Creating a PatientL**
+**1. Creating a Patient:**
 
 - In the left menu, click on the 'Create Patient' field
 
@@ -236,6 +238,12 @@ You now have your diversified Population!
 - Follow steps 2.-5. and generate another file for the same patient
 
 You just generated another Patient/Population!
+
+---
+
+![Help](/images/BassPopulationHelp.png)
+
+---
 
 ### Extra
 

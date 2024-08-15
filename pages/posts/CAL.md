@@ -22,11 +22,11 @@ This project is an OpenGL application that allows users to customise and generat
 
 **Github repo:**
 
-[https://github.com/gmilovac/CAL]
+https://github.com/gmilovac/CAL
 
 **Demo video:**
 
-[https://youtu.be/RRnJ7wooko4]
+https://youtu.be/RRnJ7wooko4
 
 ---
 
@@ -56,7 +56,7 @@ Upon loading/drawing an image, the program generates a height and noise map for 
 
 **Toon Shading:**
 
-Toon shading is a type of non-photorealistic rendering designed to make 3D computer graphics appear to be flat. Toon shading is also known as cel shading. The name comes from a traditional animation process used to add shading to cartoons. The code used in our shader is based on the code from the following website: [https://www.reddit.com/r/opengl/comments/1cwynl/toon_shader/]
+Toon shading is a type of non-photorealistic rendering designed to make 3D computer graphics appear to be flat. Toon shading is also known as cel shading. The name comes from a traditional animation process used to add shading to cartoons. The code used in our shader is based on the code from the following website: https://www.reddit.com/r/opengl/comments/1cwynl/toon_shader/
 
 **User Interface:**
 

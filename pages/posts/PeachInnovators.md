@@ -24,11 +24,11 @@ On top of working together as a crew, a successful boat relies on three key fact
 
 **Final Deliverable PDF link:**
 
-[https://drive.google.com/file/d/1puwe_QBzJWjU9C_HLuX9HX51avXZsc10/view?usp=sharing]
+https://drive.google.com/file/d/1puwe_QBzJWjU9C_HLuX9HX51avXZsc10/view?usp=sharing
 
 **Video Deliverable link:**
 
-[https://youtu.be/EOUuTH5zuDo?si=w1iWJfD8oOvf-yAu]
+https://youtu.be/EOUuTH5zuDo?si=w1iWJfD8oOvf-yAu
 
 ---
 
