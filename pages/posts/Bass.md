@@ -28,7 +28,7 @@ https://github.com/Wzelong/AI-SDA
 
 **Project Presenatation:**
 
-[link not out yet]
+https://youtu.be/1xkQfhAn08Q
 
 **All About That Bass (ad):**
 
