@@ -1,56 +1,67 @@
 ---
-title: Peach Innovators
-date: 2024/5/16
-description: (RESEARCH) What makes the rowing boat move?
-tag: Python, SQL
+title: Peach Innovators 2.0
+date: 2025/5/15
+description: (CAPSTONE) Enhancing rowing performance analysis through environmental normalization.
+tag: Python, SQL, Machine Learning
 author: Gordan Milovac
 ---
 
-# Peach Innovators
+# Peach Innovators 2.0
 
-This project is a final project for CS1951A: Data Science in Spring of 2024 at Brown University. I was mostly working on the data gathering and management portion, and the final deliverable.
+This project was completed as a capstone for CSCI1420: Machine Learning in Spring 2025 at Brown University. It builds on the original _Peach Innovators_ project by introducing advanced normalization techniques to improve rowing performance analysis in the presence of uncontrolled environmental conditions.
 
 ---
 
-![Camp](/images/camp.jpg)
+![Racing](/images/racing.webp)
 
 ---
 
 ### Background
 
-Rowing (Crew) involves propelling boats through water using oars. Athletes sit facing backward, pushing against foot stretchers with a four-phase stroke: catch, drive, finish, and recovery. The goal is to move the boat efficiently over a set distance (usually a 2 kilometer long course), either individually or as a team.
+In rowing, boat speed depends on a complex mix of factors including stroke rate, power output (watts), effective stroke length, and crew synchronization. Telemetry systems like PEACH provide detailed metrics during on-water sessions, allowing technical analysis of stroke mechanics.
 
-On top of working together as a crew, a successful boat relies on three key factors: stroke rate, effective length, power - generated primarily from leg drive during the stroke's drive phase. With a cumulative rowing experience of 30+ years, we have heard many rumors on what makes a rowing boat go fast. After joining the Brown Men’s Crew and having resources to test it, we have decided to once and for all prove which ones are correct. This project will show how key factors contribute to the boat speed.
+The original _Peach Innovators_ project explored how watts, stroke length, and watt variance correlate with boat speed. While initial results were promising, they were hindered by environmental noise—specifically wind and tidal variation—leading to inaccurate modeling.
 
-**Final Deliverable PDF link:**
+**GitHub Repository:**  
+[https://github.com/gmilovac/PeachInnovators2.0](https://github.com/gmilovac/PeachInnovators2.0)
 
-https://drive.google.com/file/d/1puwe_QBzJWjU9C_HLuX9HX51avXZsc10/view?usp=sharing
-
-**Video Deliverable link:**
-
-https://youtu.be/EOUuTH5zuDo?si=w1iWJfD8oOvf-yAu
+**Final Deliverable PDF:**  
+[Peach Innovators 2.0 Final Report](https://drive.google.com/file/d/1AZLOnODWtWNgtvkv33jG-wKUWhcochtJ/view?usp=sharing)
 
 ---
 
-![Bg](/images/tutorial.gif)
+![Bg](/images/wind.JPG)
 
 ---
 
-### Data Collection
+### Project Goal
 
-The data is collected from a telemetry system. Telemetry enables rowers to be provided with instantaneous on-water technical and physical metrics via a screen that is fixed to the boat. It gathers data through sensors placed on the pins. This data is then processed and transmitted wirelessly for analysis.
+Peach Innovators 2.0 aimed to improve performance analysis by **normalizing boat speed with respect to environmental conditions** such as wind and tide. By removing this noise, we could evaluate how rower performance variables affect boat speed under “neutral” conditions.
 
-We collected the data from the Brown Men's Crew Team over the period of about a year. The data sample is a collection of 992 unique data points, which contain these attributes: Box, Piece, Session, Piece Number, Seat, Watts, Catch Angle, Finish Angle, Catch Slip, Finish Slip, Length, Effective Length, Stroke Rate, Speed. The data was manually transcribed from the telemetry system into an Excel spreadsheet, so it was checked for anomalies during that process.
+### Methodology
 
-### Hypothesis
+The enhanced dataset consisted of **~10,000 telemetry entries** gathered from Brown Men’s Crew practices. Additional data on **wind** (from Weather Underground) and **tide** (from NOAA) was manually matched to each rowing session.
 
-The data from the telemetry system allowed us to test each factor of a rowing stroke together and individually using the boat speed as a reference point. Our hypothesis are just assumptions based on our mutual experiences:
+To reduce complexity and improve modeling:
 
-- Increasing Average Crew Watts increases boat Speed.
-- Increasing Average Crew Effective Length increases boat Speed.
-- Decreasing Variance in Crew Watts increases boat Speed.
+- **Wind** was categorized into: _tailwind_, _headwind_, and _crosswind_
+- **Tide** was categorized into: _with_, _against_, and _slack_
 
-These hypotheses aim to explore the relationship between the power output, effective length, and watt variance with boat speed. By analyzing the collected telemetry data, we seek to gain insights into the factors contributing to boat speed in rowing and their significance.
+These were mapped to each rowing piece by direction and time of day.
+
+After multiple trials, the most accurate normalization method:
+
+- Normalized **each rower’s speed individually**
+- Then averaged normalized speeds per boat
+
+This hybrid method preserved individual differences while capturing uniform environmental impact.
+
+We then re-ran our statistical and ML tests from the original project using:
+
+- **OLS regression**
+- **Pearson correlation**
+- **MLP regression**
+- **XGBoost models**
 
 ---
 
@@ -58,40 +69,71 @@ These hypotheses aim to explore the relationship between the power output, effec
 
 ---
 
-### Results and Methodology
+### Results and Analysis
 
-We used a series of Pearson Correlation tests to analyze the relationships of several key variables measured by the telemetry with boat speed. The results of these regressions are shown in Table 1. Based on the results of these tests, we can infer significant positive relationships between Average Effective Length and Speed as well as Average Watts and Speed when these variables are considered separately. We also observe a significant negative relationship between Watt Variance and Speed.
+#### Pearson Correlation (Before vs. After Normalization)
 
-To consider how the variables from our individual regressions interact with each other and Speed, we ran a multiple regression of all of the key variables on Speed. The results of this regression are shown in Table 2. The results of the model indicate that only Average Watts are significantly related with boat speed (positive relationship). The R2 of our regression is 0.476 suggesting that our model only accounts for around half of the variability in boat speed. This makes sense given the limitations of our observed variables - we expect that water and wind conditions should have a significant impact on variability in boat speed.
+| Variable         | Raw Speed Correlation | Normalized Speed Correlation |
+| ---------------- | --------------------- | ---------------------------- |
+| Average Watts    | **0.686**             | **0.658**                    |
+| Watt Variance    | -0.200                | 0.005                        |
+| Effective Length | 0.292                 | 0.278                        |
 
-We developed a KERAS model utilizing a straightforward sequential architecture to prevent overfitting, training it on our dataset with a method involving 4-fold cross-validation and maintaining a 75/25 split between training and testing data within each fold. However, the model struggled to effectively learn from the data, as evidenced by an average root mean square error (RMSE) of 0.53 m/s across all folds. This RMSE value indicates an average prediction error of 0.53 m/s. Given that the variance of the data is only 0.16 m/s, this discrepancy underscores the model's learning difficulties.
+- **Watt Variance** lost significance after normalization → previously amplified by environmental effects.
+- **Average Watts** remained the strongest predictor of boat speed.
+- **Effective Length** remained a moderate but consistent factor.
+
+#### Machine Learning
+
+- **MLP RMSE** improved from **0.5600 → 0.4954**
+- **OLS RMSE** improved from **0.285 → 0.119**
+- **MSE** decreased significantly (from **0.081 → 0.014**)
+
+These results confirmed that normalization substantially improved model stability and predictive accuracy.
 
 ---
 
-![Table](/images/tablePeach.png)
+![Table](/images/rowingtelem.jpg)
 
 ---
+
+### What Worked and What Didn't
+
+**Successes:**
+
+- Environmental normalization significantly improved performance clarity
+- Enhanced ability to isolate rower-driven effects on boat speed
+- Robust categorical encoding of wind/tide data
+
+**Limitations:**
+
+- Incomplete historical gust/wind data
+- Tidal strength estimates lacked precision
+- Practice session variation (e.g. rate caps, intensity, lineup) remained uncontrolled
+- High multicollinearity among predictors (condition numbers > 30,000)
 
 ### Conclusion
 
-Our results show that of all of our analyzed key variables, Average Watts is the only significant variable related to boat speed. As we hypothesized, Average Watts are positively related to boat speed. When we considered Average Effective Length and Watt Variance independently, both variables’ relationship to boat speed were significant, however when considering all 3 key variables together, neither measurements relationship to boat speed was significant. The high RMSE of our KERAS model, however, illustrates the limitations of the size of our data and lack of controls for weather-related variables.
+Peach Innovators 2.0 successfully demonstrated the value of **environmental normalization** in rowing performance analysis. While **average watts** remained the only consistently significant predictor of boat speed, this project showed that **effective length** has stable influence, and that **watt variance** may be overstated when not accounting for external conditions.
+
+Despite limitations, the normalization pipeline introduced here offers a valuable tool for more accurate performance modeling—and opens the door for future research into fatigue, synchronization, and more refined sensor data.
 
 ---
 
-![Graph](/images/graphPeach.png)
+![Graph](/images/needdata.png)
 
 ---
 
-### Team members and contributions
+### Future Work
 
-**Ian Burnett** (_iburnett_): Data gathering and modeling, tests and analysis
+- Integrate real-time environmental sensors
+- Improve gust/tide accuracy using higher-frequency data
+- Explore ensemble models and LSTM-based time-series architectures
+- Add synchronization and fatigue modeling to better capture performance dynamics
 
-**Adam Von Bismarck** (_avonbism_): Visualisations, final video deliverable
+---
 
-**Gordan Milovac** (_gmilovac_): Data gathering and modeling, final deliverable
+### Author & Contributions
 
-**Time allocated:** 50+ hours
-
-### Challenges and Limitations
-
-While the data collected for analysis was generally sufficient, there were notable challenges and limitations. The individual 3x2k workouts were conducted in varied stream conditions along a tidal river, impacting our variables significantly and making it difficult to isolate specific factors influencing boat speed. Additionally, the composition of boat lineups, based on rowers' abilities, introduced complexity as better rowers tended to produce higher Watts, potentially biasing our results. Furthermore, manual data extraction from the telemetry software into Excel and SQL posed minor issues, raising concerns about data accuracy and consistency. We had to clean the data to remove rows that omitted NULL values or values so far outside the realm of reasonable expectations that they signaled a broken or maladjusted sensor.
+**Gordan Milovac**  
+Project design, data gathering, environmental normalization modeling, ML implementation, report writing, and visualizations.
