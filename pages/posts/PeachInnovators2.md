@@ -1,8 +1,8 @@
 ---
 title: Peach Innovators 2.0
 date: 2025/5/15
-description: (CAPSTONE) Enhancing rowing performance analysis through environmental normalization.
-tag: Python, SQL, Machine Learning
+description: (CAPSTONE) Environmental normalization for rowing.
+tag: Python, SQL
 author: Gordan Milovac
 ---
 
@@ -36,7 +36,7 @@ The original _Peach Innovators_ project explored how watts, stroke length, and w
 
 ### Project Goal
 
-Peach Innovators 2.0 aimed to improve performance analysis by **normalizing boat speed with respect to environmental conditions** such as wind and tide. By removing this noise, we could evaluate how rower performance variables affect boat speed under “neutral” conditions.
+Peach Innovators 2.0 aimed to improve performance analysis by **normalizing boat speed with respect to environmental conditions** such as wind and tide. By removing this noise, I was able to evaluate how rower performance variables affect boat speed under “neutral” conditions.
 
 ### Methodology
 
@@ -56,7 +56,7 @@ After multiple trials, the most accurate normalization method:
 
 This hybrid method preserved individual differences while capturing uniform environmental impact.
 
-We then re-ran our statistical and ML tests from the original project using:
+I then re-ran our statistical and ML tests from the original project using:
 
 - **OLS regression**
 - **Pearson correlation**
