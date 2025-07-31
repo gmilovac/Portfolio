@@ -135,5 +135,4 @@ Despite limitations, the normalization pipeline introduced here offers a valuabl
 
 ### Author & Contributions
 
-**Gordan Milovac**  
-Project design, data gathering, environmental normalization modeling, ML implementation, report writing, and visualizations.
+**Gordan Milovac** (_gmilovac_): Project design, data gathering, environmental normalization modeling, ML implementation, report writing, and visualizations.
