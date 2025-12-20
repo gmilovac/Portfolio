@@ -10,11 +10,11 @@ author: Gordan Milovac, Shravya Munugala
 
 This project was completed as a final project for CSCI2370: Interdisciplinary Scientific Visualization in Spring 2025 at Brown University. It introduces an interactive web-based system for exploring complex, multi-dimensional public trust data across U.S. government agencies.
 
----
+<!-- ---
 
 ![UMAP Overview](/images/umap.png)
 
----
+--- -->
 
 ### Background
 
@@ -30,11 +30,11 @@ https://github.com/gmilovac/VizPublicTrust
 **Final Paper (PDF):**
 https://drive.google.com/file/d/1wSXAEOol4nxUMIZlXJIBNmMfyp-q3sjB/view?usp=sharing
 
----
+<!-- ---
 
-<!-- ![Radial Graphs](/images/radial_overlay.png) -->
+![Radial Graphs](/images/radial_overlay.png)
 
----
+--- -->
 
 ### Project Goal
 
@@ -69,11 +69,11 @@ To support detailed comparison, we designed an interactive radial graph system t
 
 Users can dynamically search for and select agencies, immediately revealing where profiles align or diverge across dimensions.
 
----
+<!-- ---
 
-<!-- ![Interface](/images/interface.png) -->
+![Interface](/images/interface.png)
 
----
+--- -->
 
 ### User Study
 
@@ -111,11 +111,11 @@ Participants completed similarity, comparison, and pattern-recognition tasks und
 
 Participants overwhelmingly preferred the proposed system, citing clearer comparisons and better support for understanding multi-dimensional structure.
 
----
+<!-- ---
 
-<!-- ![NASA TLX](/images/nasa_tlx.png) -->
+![NASA TLX](/images/nasa_tlx.png)
 
----
+--- -->
 
 ### What Worked and What Didn’t
 
