@@ -32,7 +32,7 @@ https://drive.google.com/file/d/1wSXAEOol4nxUMIZlXJIBNmMfyp-q3sjB/view?usp=shari
 
 ---
 
-![Radial Graphs](/images/umap.png)
+![Government](/images/gov.webp)
 
 ---
 
