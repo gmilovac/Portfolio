@@ -3,7 +3,7 @@ title: AI-SDA Generator
 date: 2024/8/16
 description: (WEBSITE) InterSystems Synthetic Patient Data Generator.
 tag: JavaScript, React.js, HTML, CSS, InterSystems ObjectScript, InterSystems IRIS
-author: Gordan Milovac
+author: Gordan Milovac, Zelong Wang
 ---
 
 # Bass: AI-SDA Generator

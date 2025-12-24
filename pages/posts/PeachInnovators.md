@@ -3,7 +3,7 @@ title: Peach Innovators
 date: 2024/5/16
 description: (RESEARCH) What makes the rowing boat move?
 tag: Python, SQL
-author: Gordan Milovac
+author: Gordan Milovac, Adam von Bismarck,  Ian Burnett
 ---
 
 # Peach Innovators
