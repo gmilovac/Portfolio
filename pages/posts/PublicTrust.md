@@ -12,7 +12,7 @@ This project was completed as a final project for CSCI2370: Interdisciplinary Sc
 
 ---
 
-![UMAP Overview](/images/umap.png)
+![Gov agencies](/images/gov.png)
 
 ---
 
@@ -32,7 +32,7 @@ https://drive.google.com/file/d/1wSXAEOol4nxUMIZlXJIBNmMfyp-q3sjB/view?usp=shari
 
 ---
 
-![Government](/images/gov.webp)
+![Dim reduction](/images/dimred.webp)
 
 ---
 
@@ -71,7 +71,7 @@ Users can dynamically search for and select agencies, immediately revealing wher
 
 ---
 
-![Interface](/images/umap.png)
+![UMAP](/images/umap.png)
 
 ---
 
@@ -113,7 +113,7 @@ Participants overwhelmingly preferred the proposed system, citing clearer compar
 
 ---
 
-![NASA TLX](/images/umap.png)
+![NASA TLX](/images/nasatlx.png)
 
 ---
 
