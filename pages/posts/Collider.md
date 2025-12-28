@@ -28,6 +28,9 @@ Existing collider-generation workflows are typically:
 
 This project addresses these limitations by providing an **interactive collider design pipeline** that supports static and skeletal meshes, exposes decomposition parameters to users, and enables immediate visual and quantitative evaluation.
 
+**GitHub Repository:**  
+https://github.com/mwinter02/CS2952Y_Final
+
 ---
 
 ### Project Goal
