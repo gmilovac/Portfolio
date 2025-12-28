@@ -1,7 +1,7 @@
 ---
 title: Public Trust and Perception
 date: 2025/12/17
-description: (RESEARCH) Interactive exploration of multi-dimensional institutional trust data.
+description: (RESEARCH) Exploration of multi-dimensional institutional trust data.
 tag: Data Visualization, HCI, UMAP, JavaScript, Python
 author: Gordan Milovac, Shravya Munugala
 ---

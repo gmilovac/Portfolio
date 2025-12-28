@@ -1,7 +1,7 @@
 ---
 title: Urbanize
 date: 2025/12/14
-description: (RESEARCH) Controllable urban scene synthesis using perception-conditioned GANs.
+description: (RESEARCH) Urban scene synthesis using perception-conditioned GANs.
 tag: Computer Vision, GANs, Deep Learning, Urban Perception, Python
 author: Gordan Milovac, Arib Syed, Jeffrey Mu, Marcus Winter
 ---
